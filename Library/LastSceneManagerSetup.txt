@@ -1,0 +1,25 @@
+sceneSetups:
+- path: Assets/Scenes/RoomScene.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
+- path: Assets/Scenes/Nivel1Javier.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Nivel1Vicho.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Nivel2Javier.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Nivel2Vicho.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/CityScene.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
