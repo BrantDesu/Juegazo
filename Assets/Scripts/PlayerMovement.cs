@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     public float speed;
     public float distanciaMira;
     public float bulletSpeed;
+    public lives vida;
 
     [Space]
     [Header("Acciones del personaje:")]
@@ -31,6 +32,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
+        vida = GameObject.FindObjectOfType<lives>();
         anim = GetComponent<Animator>();
         anim.SetBool("ConPistola", false);
         lvlMng = FindObjectOfType<LevelManager>();
@@ -59,6 +61,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else if(other.tag == "BulletEnemy" || other.tag == "Enemy")
         {
+            vida.CambioVida(2-cont);
             if(cont == 2)
             {
                 lvlMng.restart = true;
