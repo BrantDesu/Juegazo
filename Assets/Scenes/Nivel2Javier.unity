@@ -458,6 +458,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1700156483}
+  - {fileID: 92642970}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -927,6 +928,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 65
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &92642969
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 92642970}
+  m_Layer: 0
+  m_Name: yShow
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &92642970
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92642969}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.62, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 28637875}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &127949814
 GameObject:
@@ -5401,6 +5432,7 @@ GameObject:
   - component: {fileID: 540238872}
   - component: {fileID: 540238874}
   - component: {fileID: 540238873}
+  - component: {fileID: 540238875}
   m_Layer: 0
   m_Name: bloque
   m_TagString: changeScene
@@ -5498,6 +5530,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &540238875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 540238871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f6e2de847bd8544b8f0b6f184e0da6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  restart: 0
+  nivelActual: Nivel2Javier
 --- !u!1 &551341956
 GameObject:
   m_ObjectHideFlags: 0
@@ -5968,6 +6014,7 @@ GameObject:
   - component: {fileID: 578971022}
   - component: {fileID: 578971024}
   - component: {fileID: 578971023}
+  - component: {fileID: 578971025}
   m_Layer: 0
   m_Name: bloque (1)
   m_TagString: changeScene
@@ -6065,6 +6112,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &578971025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578971021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f6e2de847bd8544b8f0b6f184e0da6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  restart: 0
+  nivelActual: Nivel2Javier
 --- !u!1 &604594806
 GameObject:
   m_ObjectHideFlags: 0
@@ -7372,6 +7433,7 @@ GameObject:
   - component: {fileID: 704091570}
   - component: {fileID: 704091572}
   - component: {fileID: 704091571}
+  - component: {fileID: 704091573}
   m_Layer: 0
   m_Name: bloque (3)
   m_TagString: changeScene
@@ -7469,6 +7531,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &704091573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704091569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f6e2de847bd8544b8f0b6f184e0da6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  restart: 0
+  nivelActual: Nivel2Javier
 --- !u!1 &721265101
 GameObject:
   m_ObjectHideFlags: 0
@@ -10708,7 +10784,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enabled: 1
-  yShow: {fileID: 0}
+  yShow: {fileID: 92642969}
   yShowCh: {fileID: 1148331838}
   yShowFr: {fileID: 0}
   yImage: {fileID: 4839548810384870908, guid: 205cb238aae088c46ba7d471db83e97b, type: 3}
@@ -10771,7 +10847,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1158113487}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.9, y: 3.7, z: 0}
+  m_LocalPosition: {x: -1.46, y: -2.21, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 199266300}
@@ -15863,6 +15939,7 @@ GameObject:
   - component: {fileID: 1627993845}
   - component: {fileID: 1627993847}
   - component: {fileID: 1627993846}
+  - component: {fileID: 1627993848}
   m_Layer: 0
   m_Name: bloque (2)
   m_TagString: changeScene
@@ -15960,6 +16037,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1627993848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627993844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f6e2de847bd8544b8f0b6f184e0da6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  restart: 0
+  nivelActual: Nivel2Javier
 --- !u!1 &1633098100
 GameObject:
   m_ObjectHideFlags: 0

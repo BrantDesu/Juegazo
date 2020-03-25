@@ -667,6 +667,7 @@ GameObject:
   - component: {fileID: 110951614}
   - component: {fileID: 110951616}
   - component: {fileID: 110951615}
+  - component: {fileID: 110951617}
   m_Layer: 0
   m_Name: bloque (2)
   m_TagString: changeScene
@@ -764,6 +765,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &110951617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110951613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f6e2de847bd8544b8f0b6f184e0da6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  restart: 0
+  nivelActual: Nivel2Vicho
 --- !u!1001 &124608305
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1472,6 +1487,7 @@ GameObject:
   - component: {fileID: 288185215}
   - component: {fileID: 288185217}
   - component: {fileID: 288185216}
+  - component: {fileID: 288185218}
   m_Layer: 0
   m_Name: bloque (3)
   m_TagString: changeScene
@@ -1569,6 +1585,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &288185218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288185214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f6e2de847bd8544b8f0b6f184e0da6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  restart: 0
+  nivelActual: Nivel2Vicho
 --- !u!1001 &319464588
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2720,6 +2750,7 @@ GameObject:
   - component: {fileID: 468337754}
   - component: {fileID: 468337756}
   - component: {fileID: 468337755}
+  - component: {fileID: 468337757}
   m_Layer: 0
   m_Name: bloque (1)
   m_TagString: changeScene
@@ -2817,6 +2848,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &468337757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468337753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f6e2de847bd8544b8f0b6f184e0da6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  restart: 0
+  nivelActual: Nivel2Vicho
 --- !u!1001 &516574819
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5543,6 +5588,7 @@ GameObject:
   - component: {fileID: 1231601877}
   - component: {fileID: 1231601879}
   - component: {fileID: 1231601878}
+  - component: {fileID: 1231601880}
   m_Layer: 0
   m_Name: bloque
   m_TagString: changeScene
@@ -5640,6 +5686,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1231601880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231601876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f6e2de847bd8544b8f0b6f184e0da6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  restart: 0
+  nivelActual: Nivel2Vicho
 --- !u!1001 &1250021445
 PrefabInstance:
   m_ObjectHideFlags: 0
