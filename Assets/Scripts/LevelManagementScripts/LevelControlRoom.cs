@@ -13,7 +13,10 @@ public class LevelControlRoom : MonoBehaviour
     {
         if(collision.CompareTag("Player"))
         {
-            if (actualLevelID >= 0)
+            if(actualLevelID == 420){
+                Application.Quit();
+            }
+            else if (actualLevelID >= 0)
             {
                 Debug.Log("LevelID: " + actualLevelID);
                 FindObjectOfType<LevelManagerStatic>().modifyLevelState(actualLevelID);
